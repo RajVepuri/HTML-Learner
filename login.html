@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Login</title>
+    <link>
+    <script>
+        
+    </script>
+    <style>
+        body
+        {
+            background-color: #dddddd;
+        }
+        .form
+        {
+            border : solid 1px #CCC;
+            background-color: white;
+        }
+        .form div:first-child
+        {
+/*            border-top: solid 1px magenta;*/
+        }
+        .form div {
+/*            border-bottom: solid 1px magenta;
+            border-right: solid 1px magenta;
+            border-left: solid 1px magenta;*/
+        }
+        
+        .form div p{
+            margin: 0px 20px;
+            padding: 7px 0px;
+        }
+        
+        .form div input{
+            margin: 7px 20px;
+            border:solid 1px blue;
+            padding:10px;
+            width:90%;
+        }
+        .form div input[type="button"] {
+            border:solid 1px red;
+            background-color: #c5c5c5;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:100%;margin-top : 150px;">
+        <div class="form" style="width:500px; margin:0 auto; padding: 20px;">
+            <div><p>User Name</p></div>
+            <div><input id="uname"/></div>
+            <div><p>Password</p></div>
+            <div><input id="upass" type="password"/></div>
+            <div><input id="login" type="button" value="Login"/></div>
+            <div><input id="call" type="button" value="call"/></div>
+        </div>
+    </div>
+</body>
+</html>
